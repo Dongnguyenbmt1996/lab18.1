@@ -1,0 +1,58 @@
+.bg-img1 {
+  padding-top: 650px;
+  height: 400px;
+  background-size: cover;
+  background-image: url(hinh1.jpg);
+}
+
+.bg-img2 {
+  padding-top: 650px;
+  height: 400px;
+  background-size: cover;
+  background-image: url(hinh2.jpg);
+}
+
+.bg-img3 {
+  padding-top: 650px;
+  height: 400px;
+  background-size: cover;
+  background-image: url(hinh3.jpg);
+}
+
+.carousel-caption {
+  top: 350px;
+  text-align: left;
+}
+
+.lead {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  footer {
+    width: 100%;
+  }
+
+  .col-md {
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .col-md {
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+  }
+
+  .d-flex {
+    display: block !important;
+  }
+}
